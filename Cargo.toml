@@ -1,0 +1,13 @@
+[package]
+name = "rust-live-md"
+version = "1.0.0"
+authors = ["Hacı Mert Gökhan"]
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.6", features = ["ws"] }
+tokio = { version = "1.41.1", features = ["full"] }
+pulldown-cmark = "0.12.2"
+notify = "7.0.0"
+serde_json = "1.0.133"
+serde = { version = "1.0.215", features = ["derive"] }
